@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 60px auto 40px auto;
+}
+
+#slide{
+    height: 512px;
+    width: 512px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid grey;
+}
+
+.slide-single{
+    height: 512px;
+    width: 512px;
+    position: absolute;
+    transition:  all ease 1s;
+    left: 0;
+    top: 0;
+}
